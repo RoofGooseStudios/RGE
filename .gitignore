@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# CMake
+build
+bin
+lib
+deploy
+
+# Source files that are configured
+src/version.cpp
