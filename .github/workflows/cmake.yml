@@ -30,7 +30,7 @@ jobs:
               sudo apt-get install doxygen
          elif [ "$RUNNER_OS" == "Windows" ]; then
               choco install doxygen.install
-         elif [ "RUNNER_OS" == "macOS" ]; then
+         elif [ "RUNNER_OS" == "Darwin" ]; then
               brew install doxygen
          else
               echo "$RUNNER_OS not supported"
