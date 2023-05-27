@@ -26,6 +26,7 @@ if (DOXYGEN_FOUND)
     set(DOXYGEN_DOT_TRANSPARENT YES)
 
     doxygen_add_docs(doxygen ${PROJECT_SOURCE_DIR}/include)
+    add_dependencies(RGE doxygen) # Forces docs to be built during ALL
 else()
     message("Doxygen needs to be installed to generate the doxygen documentation.")
 

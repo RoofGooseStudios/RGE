@@ -39,3 +39,6 @@ deploy
 
 # Source files that are configured
 src/version.cpp
+
+# Ignore generated docs
+docs
